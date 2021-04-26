@@ -18,6 +18,13 @@ You will also see any lint errors in the console.
 
 Runs the app's flask backend
 
+### Languages
+
+- Python (flask backend)
+- Javascript (ReactJS)
+- CSS
+- HTML
+
 ### APIs Used`
 
 - Google Places
