@@ -68,5 +68,5 @@ export class DirMapContainer extends Component {
 }
 
 export default GoogleApiWrapper({
-  apiKey: 'AIzaSyDE9Fglhab96KVJOh0xfyr7zGhNaccQO_s'
+  apiKey: 'YOUR-API-KEY-HERE'
 })(DirMapContainer);
