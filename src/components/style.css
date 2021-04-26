@@ -1,0 +1,213 @@
+nav{
+    height: 50px;
+    border: 0px solid #dfdfdf;
+}
+
+.div-header{
+    z-index:5;
+    width: 100%;
+    height: 5%;
+    margin: 0 ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #126E82;
+    position:fixed;
+    border-color:#126E82;
+}
+.nav-header {
+    border-color:#126E82;
+}
+.div-svg{
+    height: 30px;
+    width: 30px;
+    padding: 0 20px;
+}
+.active{
+    border-bottom: 2px solid #132c33;
+}
+
+
+#map {
+    height: 100%;
+    position: absolute;
+  }
+  
+  /* Optional: Makes the sample page fill the window. */
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    
+  }
+
+.overlay {
+    position: relative;
+    padding: 25px;   
+}
+.container {
+    position:relative;
+
+}
+
+.addressfield {
+    position:relative;
+    border-color: white!important;
+    border-image: none;
+    border-style: none;
+    font: 300 20px Arial;
+    width: 530px;
+    /* color: white!important;
+    background-color: white!important; */
+    outline:none;
+}
+
+.body {
+    margin-top:40px;
+    padding-left: 300px;
+    padding-right: 300px;
+    
+}
+
+.root {
+    flex-shrink: 0;
+    margin-left: 5;
+    background-color: #d8e8e7;
+}
+.table {
+    min-width: 640px;
+}
+
+.center {
+    width: 50%;
+    text-align:center;
+    padding: 10px;
+    margin-right: auto;
+    margin-left:auto;
+  }
+
+.pagecontainer {
+    position:absolute;
+    left: 10%;
+    width: 80%;
+    text-align:center;
+    padding-bottom: 10px;
+    margin-right: auto;
+    margin-left:auto; 
+    margin-top:17px;
+    min-height: 80%;
+    padding-top:0px;
+    padding-left:0px;
+    padding-right:0px;
+    background-color:white;
+}
+
+.pageinfocontainer {
+    position:absolute;
+    left: 25%;
+    top: 1.7%;
+    width: 50%;
+    text-align:center;
+    padding-bottom: 10px;
+    margin-right: auto;
+    margin-left:auto; 
+    margin-top:139px;
+    min-height: 500px;
+    padding-top:0px;
+    padding-left:0px;
+    padding-right:0px;
+}
+
+.imagecontainer {
+    position: absolute;
+    display: 'block';
+    flex-wrap: 'wrap';
+    justify-content: 'space-around';
+    overflow: 'hidden';
+    background-color: white;
+    max-height: 20%!important;
+    border:none;
+
+}
+
+.toiletoverview {
+    text-align:left;
+    padding-top:20px;
+    height:400px;
+}
+.toiletchips {
+    margin-left:5px;
+    margin-right:5px;
+    margin-top:10px;
+}
+
+.toiletpage{
+    z-index:0;
+    width: 0%;
+    text-align:center;
+    padding: 0px;
+    margin-right: auto;
+    margin-left:auto;
+  }
+
+.dirlist {
+    left:45%;
+    width:45%;
+}
+
+.dirmap {
+    height:100%!important;
+    max-height:auto;
+    overflow:-moz-hidden-unscrollable;
+}
+
+.swipeableview {
+    overflow:hidden!important;
+}
+
+.dropdown {
+    position:absolute;
+    width:540px;
+    padding: 10px 0px;
+    line-height: 50px;
+    text-indent: 15px;
+    z-index:10;
+}
+
+.autofill {
+    width: 500px;
+}
+.logout {
+    color: white;
+    position: relative;
+    left: 88%;
+    font-size: 15px;
+}
+
+.logout:hover {
+    color: rgb(230, 230, 230);
+}
+
+.snackbar {
+    padding:0!important;
+}
+
+.mapslider {
+    margin:20px;
+}
+
+.drawer {
+    background-color: '#fafafa';
+}
+
+.dashpaper {
+    padding: 20px;
+    display: 'flex';
+    overflow: 'auto';
+  }
+
+.dashcontent {
+    margin-top: 30px;
+}

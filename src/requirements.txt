@@ -1,0 +1,2 @@
+react-swipeable-views
+@material-ui/core
